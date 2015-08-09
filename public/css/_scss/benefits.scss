@@ -1,6 +1,9 @@
+section#benefits .row.flex {
+  flex-flow: column wrap;
+}
 
 section#benefits .benefit {
-  flex: 0 1 auto;
+  flex: 0 1 33%;
   padding-bottom: 30px
 }
 
@@ -11,5 +14,11 @@ section#benefits .benefit:last-child {
 @media(min-width: 768px){
   section#benefits .benefit {
     padding-bottom: 0px;
+  }
+
+  section#benefits .row.flex {
+    flex-flow: row nowrap;
+    align-self: flex-start;
+    align-items: flex-start;
   }
 }

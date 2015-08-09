@@ -1,4 +1,9 @@
-.testimonial {
+section#testimonials .row.flex {
+  flex-flow: column nowrap;
+}
+
+section#testimonials .testimonial {
+  flex: 0 1 auto;
   border-left: 3px solid gray;
   padding-left: 20px;
   margin-top: 10px;
@@ -7,7 +12,7 @@
 
 .testimonial .quote {
   font-style: italic;
-  color: $text-muted;
+  // color: $text-muted;
   font-weight: 300;
 }
 
@@ -16,7 +21,17 @@
 }
 
 @media (min-width: 768px) {
-  .testimonial {
-    font-size: 15px;
+
+  section#testimonials .row.flex {
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-self: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  section#testimonials .testimonial {
+    flex: 0 1 50%;
+    font-size: 14px;
  }
 }

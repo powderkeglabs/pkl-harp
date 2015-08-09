@@ -2,3 +2,11 @@ section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.flex {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
