@@ -1,19 +1,12 @@
-body{
-  font-family: "Helvetica";
-  text-align: center;
-  padding: 50px 20px 0;
-  background: #f4f4f7;
-  color: #444;
-  margin: 0;
-}
+$roboto-font-path: '/components/materialize/font/roboto/';
+$icons-font-path: '/components/materialize/font/material-design-icons/';
 
-h1{
-  font-size: 65px;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
-  padding: 20px 0;
-}
+// Materialize Import
+@import '../components/materialize/sass/materialize.scss';
 
-h3{
-  font-weight: 300;
-}
+// App Styles Import
+@import '_scss/colors.scss';
+@import '_scss/index.scss';
+@import '_scss/page.scss';
+@import '_scss/benefits.scss';
+@import '_scss/testimonials.scss';

@@ -1,0 +1,19 @@
+$dark-color: #222;
+$text-muted: #727272;
+$accent-color: #FF3B2F;
+
+.dark-color {
+  background-color: $dark-color;
+}
+
+.base-color {
+  @extend .grey;
+}
+
+.text-muted {
+  color: $text-muted;
+}
+
+a {
+  color: $accent-color;
+}

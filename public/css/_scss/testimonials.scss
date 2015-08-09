@@ -1,0 +1,22 @@
+.testimonial {
+  border-left: 3px solid gray;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.testimonial .quote {
+  font-style: italic;
+  color: $text-muted;
+  font-weight: 300;
+}
+
+.testimonial .source {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .testimonial {
+    font-size: 15px;
+ }
+}
