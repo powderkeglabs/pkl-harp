@@ -1,4 +1,5 @@
 $dark-color: #222;
+$text-secondary-color: #fff;
 $text-muted: #727272;
 $accent-color: #FF3B2F;
 
@@ -10,10 +11,18 @@ $accent-color: #FF3B2F;
   @extend .grey;
 }
 
+.accent-color {
+  background-color: $accent-color;
+}
+
 .text-muted {
   color: $text-muted;
 }
 
 a {
   color: $accent-color;
+}
+
+.fill-overlay{
+  background: rgba(0, 0, 0, 0.50);
 }
