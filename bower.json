@@ -1,0 +1,19 @@
+{
+  "name": "pkl-harp",
+  "version": "0.0.0",
+  "authors": [
+    "JJ Hiew <jj.hiew@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0"
+  }
+}
