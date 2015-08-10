@@ -8,16 +8,19 @@ section#testimonials .testimonial {
   padding-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 0px;
 }
 
 .testimonial .quote {
   font-style: italic;
   // color: $text-muted;
   font-weight: 300;
+  margin-left: 0px;
 }
 
 .testimonial .source {
   font-style: italic;
+  margin-left: 0px;
 }
 
 @media (min-width: 768px) {
