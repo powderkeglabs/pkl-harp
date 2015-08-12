@@ -1,0 +1,13 @@
+#logo-container {
+  display:none;
+}
+
+.brand-logo > img {
+  height: 95%;
+}
+
+@media (min-width: 768px) {
+  #logo-container {
+    display: block
+  }
+}
