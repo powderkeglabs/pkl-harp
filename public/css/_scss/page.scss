@@ -1,8 +1,25 @@
+
 section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
+/// Page Header
+header {
+  height: 250px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  color: #fff;
+}
+
+header img {
+  width: 300px;
+}
+
+////// Alternating Flex Layout Elements
 .flex {
   display: flex;
   flex-flow: column nowrap;
@@ -10,6 +27,40 @@ section {
   align-self: center;
   justify-content: center;
 }
+
+.flex-text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .flex.row {
+    flex-flow: row nowrap;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .flex-hero {
+    flex: 0 1 35%;
+  }
+
+  .flex-text {
+    flex: 0 1 65%;
+    text-align: left;
+  }
+
+  //Alternating
+  .alt .flex-hero {
+    order: 2;
+  }
+
+  .alt .flex-text {
+    order: 1;
+  }
+}
+////// END Alternating Flex Layout Elements
+
+
 
 .quote {
   margin-left: 40px;
