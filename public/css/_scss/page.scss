@@ -32,6 +32,17 @@ header img {
   text-align: center;
 }
 
+.hero-img {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.hero-img img {
+  flex: 0 1 auto;
+}
 @media (min-width: 768px) {
   .flex.row {
     flex-flow: row nowrap;

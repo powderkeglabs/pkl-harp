@@ -1,4 +1,4 @@
-section#team {
+section.team {
 
   .member:not(:last-child) {
     padding-bottom: 40px;
@@ -14,4 +14,7 @@ section#team {
     font-size: 18px;
   }
 
+  p {
+    text-align: left;
+  }
 }

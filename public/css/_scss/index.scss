@@ -10,14 +10,5 @@ header.index-header {
   font-size: 16px;
 }
 
-section#subheading .subheading-text{
-  text-align: left;
-}
-
-@media(min-width: 768px){
-  section#subheading .subheading-text{
-    text-align: center;
-  }
-}
 
 /// Alternating Flexbox Layout
