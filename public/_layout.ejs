@@ -26,7 +26,11 @@
 
     <%- partial("/_shared_partials/nav", {}) %>
 
-    <%- yield %>
+    <% if(current.path[0] == "blog" && current.source !== 'index') { %>
+      <%- partial(current.path[0] + "/_nest") %>
+    <% } else { %>
+      <%- yield %>
+    <% } %>
 
     <%- partial("/_shared_partials/footer", {}) %>
 
