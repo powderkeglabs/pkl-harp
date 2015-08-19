@@ -6,6 +6,21 @@
   height: 95%;
 }
 
+.side-nav {
+  font-weight: 500;
+}
+
+li.side-nav-brand {
+  border-bottom: 1px solid #ddd;
+  height: 150px;
+  text-align: center;
+  background-color: $fill-color;
+}
+
+li.side-nav-brand:hover {
+  background-color: $fill-color;
+}
+
 @media (min-width: 768px) {
   #logo-container {
     display: block

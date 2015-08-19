@@ -2,9 +2,14 @@ $dark-color: #222;
 $text-secondary-color: #fff;
 $text-muted: #727272;
 $accent-color: #FF3B2F;
+$fill-color: #494E54;
 
 .dark-color {
   background-color: $dark-color;
+}
+
+.fill-color {
+  background-color: $fill-color;
 }
 
 .base-color {
