@@ -1,10 +1,31 @@
 <!-- Benefits -->
 <section id="benefits">
 	<div class="container">
+		<div class="row">
+			<div class="col s12 center-align">
+				<h4>How We Can Help</h4>
+			</div>
+		</div>
 		<div class="row flex">
-	    <%- partial('benefit', {title: 'Tech Strategy', image: '/images/collaborate.jpg', description: "We immerse ourselves in your idea and determine the best technology solution for your startup -- it's like having a technical co-founder on demand."}) %>
-	    <%- partial('benefit', {title: 'Design & Planning', image: '/images/design.jpeg', description: "We'll identify the key features for the Minimum Viable Product, then create a development plan to get it to market as quickly and cost effectively as possible."}) %>
-	    <%- partial('benefit', {title: 'App Development', image: '/images/development.jpeg', description: "Build and launch your product with our team of local developers or have us project manage your own team, either way we'll make your idea a reality."}) %>
+
+	    <%- partial('benefit', {
+				title: 'Guidance',
+				image: '/images/collaborate.jpg',
+				description: "We immerse ourselves in your idea and determine the best technology solution for your startup. It's like having an interim Chief Technology Officer when you need one."
+			}) %>
+
+	    <%- partial('benefit', {
+				title: 'Planning',
+				image: '/images/design.jpeg',
+				description: "We'll identify the key features for the Minimum Viable Product and create development specs. With proper planning, you'll know what to expect in terms of development costs and timelines."
+			}) %>
+
+	    <%- partial('benefit', {
+				title: 'Development',
+				image: '/images/development.jpeg',
+				description: "Build and launch your product with our team of local developers, or have us augment your own team. Either way, we'll make your app idea a reality."
+			}) %>
+
 	  </div>
 	  <!-- /.row -->
 	</div>
