@@ -1,24 +1,46 @@
-section#benefits .row.flex {
+.benefits .row.flex {
   flex-flow: column wrap;
 }
 
-section#benefits .benefit {
+.benefits .benefit {
   flex: 0 1 33%;
   padding-bottom: 30px
 }
 
-section#benefits .benefit:last-child {
+.benefits .benefit:last-child {
   padding-bottom: 0px
 }
 
+.benefits .card-image {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.benefits .card-image img {
+  transition: 0.3s;
+  opacity: 0.70;
+}
+
+.benefits .card-image img:hover {
+  // opacity: 0.92;
+}
+
+.overlay {
+  background: rgba(0,0,0,1);
+}
+
 @media(min-width: 650px){
-  section#benefits .benefit {
+  .benefits .benefit {
     padding-bottom: 0px;
   }
 
-  section#benefits .row.flex {
+  .benefits .row.flex {
     flex-flow: row nowrap;
     align-self: flex-start;
     align-items: flex-start;
+  }
+
+  .benefits .card-content {
+    min-height: 120px;
   }
 }

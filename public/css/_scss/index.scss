@@ -1,5 +1,5 @@
 header.index-header {
-  height: 450px;
+  min-height: 450px;
 }
 
 .uvp {
@@ -9,8 +9,27 @@ header.index-header {
 
 .lead-in {
   font-weight: 300;
+  font-size: 16px;
 }
 
 .subheading-text {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.service-collection {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.service-collection li {
+  flex: 0 1 45%;
+  list-style: circle;
+  margin-left: 28px;
+}
+
+@media(min-width: 600px) {
+  .service-collection {
+    flex-flow: row wrap;
+  }
 }
