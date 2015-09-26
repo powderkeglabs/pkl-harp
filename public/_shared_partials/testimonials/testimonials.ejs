@@ -1,27 +1,35 @@
 <!-- testimonials -->
-<section id="testimonials">
+<section class="testimonials">
   <div class="container">
     <div class="row">
-      <div class="col s12 center-align">
-        <h4>What people have said about us</h4>
+      <div class="col s12">
+        <h4>What's been said</h4>
       </div>
     </div>
     <div class="row flex">
 
       <%- partial('testimonial', {
-        text: "<p>We approached PKL to build software within a fairly niche sector. Despite the complexity, they took the time to understand the problem and the reasoning behind our approach. They gained a depth of understanding and enabled important discussions that allowed us to stratify our priorities in developing our product. Most shops we spoke with did not nearly match that level of commitment to critically thinking through the whole problem/solution space.</p><p>We were pleasantly surprised by how much PKL had to offer our whole business beyond software development. Additionally, they never seemed to be in sales mode since they had the confidence to stand by their work and abilities. We felt like they had our interests at heart the whole time.</p><p>Few developers pushed as hard to understand the problem space and comb through the details with the humility of this team. That's tremendously valuable and we recommend reaching out to them for that reason.</p>",
+        text: "<p>&quot;Few developers pushed as hard to understand the problem space and comb through the details with the humility of this team. Additionally, they never seemed to be in sales mode since they had the confidence to stand by their work and abilities. We felt like they had our interests at heart the whole time. That's tremendously valuable and we recommend reaching out to them for that reason.&quot;</p>",
         name: 'Ilan Shahin',
         company: '',
         url: '',
         position: ''
       }) %>
 
+      <!--%- partial('testimonial', {
+        text: "<p>&quot;We approached PKL to build software within a fairly niche sector. Despite the complexity, they took the time to understand the problem and the reasoning behind our approach. They gained a depth of understanding and enabled important discussions that allowed us to stratify our priorities in developing our product. Most shops we spoke with did not nearly match that level of commitment to critically thinking through the whole problem/solution space.</p><p>We were pleasantly surprised by how much PKL had to offer our whole business beyond software development. Additionally, they never seemed to be in sales mode since they had the confidence to stand by their work and abilities. We felt like they had our interests at heart the whole time.</p><p>Few developers pushed as hard to understand the problem space and comb through the details with the humility of this team. That's tremendously valuable and we recommend reaching out to them for that reason.&quot;</p>",
+        name: 'Ilan Shahin',
+        company: '',
+        url: '',
+        position: ''
+      }) %-->
+
       <%- partial('testimonial', {
-        text: "<p>Working with PowderKeg altered our entire approach to building a startup as we were quickly led through a number of surprising Validated Learning experiments. PowderKeg protected our seed capital and helped us find our market faster.</p>",
+        text: "<p>Working with PowderKeg altered our entire approach to building a startup. We thought we 'got' the Lean Startup Methodolgy but we quickly learned we really didn't as they led us through a number of surprising Validated Learning experiments. PowderKeg protected our seed capital and helped us find our market faster.</p>",
         name: 'Brennan Kelly',
-        company: 'Clover Awards',
-        url: 'https://cloverawards.com',
-        position: 'CEO'
+        company: ', Clover Awards',
+        url: '',
+        position: ''
       }) %>
 
 

@@ -1,31 +1,33 @@
-section#testimonials .row.flex {
+.testimonials .row.flex {
   flex-flow: column nowrap;
 }
 
-section#testimonials .testimonial {
+.testimonials .testimonial {
   flex: 0 1 auto;
-  border-left: 3px solid gray;
-  padding-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
+  // border-left: 3px solid gray;
+  // padding-left: 20px;
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+  // margin-left: 0px;
 }
 
 .testimonial .quote {
-  font-style: italic;
+  // font-style: italic;
   // color: $text-muted;
-  font-weight: 300;
+  // font-weight: 300;
   margin-left: 0px;
+  // font-size: 16px;
 }
 
 .testimonial .source {
-  font-style: italic;
+  // font-style: italic;
   margin-left: 0px;
+  // font-size: 16px;
 }
 
 @media (min-width: 768px) {
 
-  section#testimonials .row.flex {
+  .testimonials .row.flex {
     flex-flow: row wrap;
     align-items: flex-start;
     align-self: flex-start;
@@ -33,7 +35,7 @@ section#testimonials .testimonial {
     justify-content: flex-start;
   }
 
-  section#testimonials .testimonial {
+  .testimonials .testimonial {
     flex: 0 1 50%;
     font-size: 14px;
  }
